@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/A_PCL/Horde3D-master/Horde3D/Source/Horde3DUtils/CMakeLists.txt
+  CMake does not need to re-run because C:/A_PCL/Horde3D-master/Horde3D/Source/Horde3DUtils/CMakeFiles/generate.stamp is up-to-date.
+  main.cpp
+     Creating library C:/A_PCL/Horde3D-master/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.lib and object C:/A_PCL/Horde3D-master/Horde3D/Source/Horde3DUtils/Debug/Horde3DUtils.exp
+  Horde3DUtils.vcxproj -> C:\A_PCL\Horde3D-master\Binaries\Windows\Debug\Horde3DUtils.dll
+  Horde3DUtils.vcxproj -> C:/A_PCL/Horde3D-master/Binaries/Windows/Debug/Horde3DUtils.pdb (Full PDB)

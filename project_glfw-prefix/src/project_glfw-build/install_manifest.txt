@@ -1,0 +1,8 @@
+C:/A_PCL/Horde3D-master/project_glfw-prefix/include/GLFW/glfw3.h
+C:/A_PCL/Horde3D-master/project_glfw-prefix/include/GLFW/glfw3native.h
+C:/A_PCL/Horde3D-master/project_glfw-prefix/lib/cmake/glfw3/glfw3Config.cmake
+C:/A_PCL/Horde3D-master/project_glfw-prefix/lib/cmake/glfw3/glfw3ConfigVersion.cmake
+C:/A_PCL/Horde3D-master/project_glfw-prefix/lib/cmake/glfw3/glfw3Targets.cmake
+C:/A_PCL/Horde3D-master/project_glfw-prefix/lib/cmake/glfw3/glfw3Targets-debug.cmake
+C:/A_PCL/Horde3D-master/project_glfw-prefix/lib/pkgconfig/glfw3.pc
+C:/A_PCL/Horde3D-master/project_glfw-prefix/lib/glfw3.lib

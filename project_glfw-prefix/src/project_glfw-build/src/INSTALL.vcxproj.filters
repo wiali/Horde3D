@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw-build\CMakeFiles\6f335eb64e1ad2ef7a21ee47911c2349\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{23C2866D-EA2C-3A3E-A457-2DA37A662561}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

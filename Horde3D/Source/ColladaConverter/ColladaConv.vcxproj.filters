@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\converter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\daeMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\optimizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\converter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\daeCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\daeLibAnimations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\daeLibControllers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\daeLibEffects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\daeLibGeometries.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\daeLibImages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\daeLibMaterials.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\daeLibVisualScenes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\daeMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\optimizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A619929B-0DDC-3F0A-B7D2-F56B40C12AED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{02BE8D9A-2A29-3C3C-A7A9-BCC03078B095}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

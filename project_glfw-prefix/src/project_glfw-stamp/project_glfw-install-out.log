@@ -1,0 +1,73 @@
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2018 7:38:36 PM.
+Project "C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw-build\install.vcxproj" on node 1 (default targets).
+Project "C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw-build\install.vcxproj" (1) is building "C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw-build\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+FinalizeBuildStatus:
+  Deleting file "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+  Touching "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+Done Building Project "C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw-build\ZERO_CHECK.vcxproj" (default targets).
+Project "C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw-build\install.vcxproj" (1) is building "C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw-build\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+Project "C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw-build\ALL_BUILD.vcxproj" (3) is building "C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw-build\src\glfw.vcxproj" (4) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "glfw.dir\Debug\glfw.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Lib:
+  All outputs are up-to-date.
+  glfw.vcxproj -> C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw-build\src\Debug\glfw3.lib
+FinalizeBuildStatus:
+  Deleting file "glfw.dir\Debug\glfw.tlog\unsuccessfulbuild".
+  Touching "glfw.dir\Debug\glfw.tlog\glfw.lastbuildstate".
+Done Building Project "C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw-build\src\glfw.vcxproj" (default targets).
+InitializeBuildStatus:
+  Creating "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+FinalizeBuildStatus:
+  Deleting file "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+  Touching "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+Done Building Project "C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw-build\ALL_BUILD.vcxproj" (default targets).
+PrepareForBuild:
+  Creating directory "x64\Debug\INSTALL\".
+  Creating directory "x64\Debug\INSTALL\INSTALL.tlog\".
+InitializeBuildStatus:
+  Creating "x64\Debug\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+PostBuildEvent:
+  setlocal
+  C:\A_PCL\cmake-3.10.2-win64-x64\bin\cmake.exe -DBUILD_TYPE=Debug -P cmake_install.cmake
+  if %errorlevel% neq 0 goto :cmEnd
+  :cmEnd
+  endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+  :cmErrorLevel
+  exit /b %1
+  :cmDone
+  if %errorlevel% neq 0 goto :VCEnd
+  :VCEnd
+  -- Install configuration: "Debug"
+  -- Installing: C:/A_PCL/Horde3D-master/project_glfw-prefix/include/GLFW
+  -- Installing: C:/A_PCL/Horde3D-master/project_glfw-prefix/include/GLFW/glfw3.h
+  -- Installing: C:/A_PCL/Horde3D-master/project_glfw-prefix/include/GLFW/glfw3native.h
+  -- Installing: C:/A_PCL/Horde3D-master/project_glfw-prefix/lib/cmake/glfw3/glfw3Config.cmake
+  -- Installing: C:/A_PCL/Horde3D-master/project_glfw-prefix/lib/cmake/glfw3/glfw3ConfigVersion.cmake
+  -- Installing: C:/A_PCL/Horde3D-master/project_glfw-prefix/lib/cmake/glfw3/glfw3Targets.cmake
+  -- Installing: C:/A_PCL/Horde3D-master/project_glfw-prefix/lib/cmake/glfw3/glfw3Targets-debug.cmake
+  -- Installing: C:/A_PCL/Horde3D-master/project_glfw-prefix/lib/pkgconfig/glfw3.pc
+  -- Installing: C:/A_PCL/Horde3D-master/project_glfw-prefix/lib/glfw3.lib
+FinalizeBuildStatus:
+  Deleting file "x64\Debug\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+  Touching "x64\Debug\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+Done Building Project "C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw-build\install.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.64

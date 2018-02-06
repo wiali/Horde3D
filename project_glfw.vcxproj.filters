@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\A_PCL\Horde3D-master\CMakeLists.txt" />
+    <CustomBuild Include="C:\A_PCL\Horde3D-master\CMakeFiles\b5bc15b1e177a88c08d30c4f043d5994\project_glfw-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\A_PCL\Horde3D-master\CMakeFiles\b5bc15b1e177a88c08d30c4f043d5994\project_glfw-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\A_PCL\Horde3D-master\CMakeFiles\b5bc15b1e177a88c08d30c4f043d5994\project_glfw-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\A_PCL\Horde3D-master\CMakeFiles\b5bc15b1e177a88c08d30c4f043d5994\project_glfw-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\A_PCL\Horde3D-master\CMakeFiles\b5bc15b1e177a88c08d30c4f043d5994\project_glfw-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\A_PCL\Horde3D-master\CMakeFiles\b5bc15b1e177a88c08d30c4f043d5994\project_glfw-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\A_PCL\Horde3D-master\CMakeFiles\b5bc15b1e177a88c08d30c4f043d5994\project_glfw-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\A_PCL\Horde3D-master\CMakeFiles\1efc4402211fd0fc5505eab42b10dfee\project_glfw-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\A_PCL\Horde3D-master\CMakeFiles\fd1bdba0b3ddb25570f8de26e74f8c6e\project_glfw.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\A_PCL\Horde3D-master\CMakeFiles\project_glfw" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E223D6E3-B3D7-36E4-8AB7-2789C79138D0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

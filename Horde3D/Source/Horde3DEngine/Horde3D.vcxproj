@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2F3671FD-75D3-3245-9928-78BB569285C0}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Horde3D</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\A_PCL\Horde3D-master\Binaries\Windows\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Horde3D.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Horde3D</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\A_PCL\Horde3D-master\Binaries\Windows\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Horde3D.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Horde3D</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\A_PCL\Horde3D-master\Binaries\Windows\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Horde3D.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Horde3D</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\A_PCL\Horde3D-master\Binaries\Windows\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Horde3D.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Horde3D</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\.;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\Bindings\C++;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\..;C:\A_PCL\Horde3D-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE;CMAKE_INTDIR="Debug";Horde3D_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE;CMAKE_INTDIR=\"Debug\";Horde3D_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\.;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\Bindings\C++;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\..;C:\A_PCL\Horde3D-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\.;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\Bindings\C++;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\..;C:\A_PCL\Horde3D-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;..\..\..\Extensions\Terrain\Source\Debug\Horde3DTerrain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/A_PCL/Horde3D-master/Horde3D/Source/Horde3DEngine/Debug/Horde3D.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/A_PCL/Horde3D-master/Binaries/Windows/Debug/Horde3D.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\.;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\Bindings\C++;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\..;C:\A_PCL\Horde3D-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SECURE_SCL=0;CMAKE;CMAKE_INTDIR="Release";Horde3D_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SECURE_SCL=0;CMAKE;CMAKE_INTDIR=\"Release\";Horde3D_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\.;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\Bindings\C++;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\..;C:\A_PCL\Horde3D-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\.;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\Bindings\C++;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\..;C:\A_PCL\Horde3D-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;..\..\..\Extensions\Terrain\Source\Release\Horde3DTerrain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/A_PCL/Horde3D-master/Horde3D/Source/Horde3DEngine/Release/Horde3D.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/A_PCL/Horde3D-master/Binaries/Windows/Release/Horde3D.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\.;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\Bindings\C++;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\..;C:\A_PCL\Horde3D-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE;CMAKE_INTDIR="MinSizeRel";Horde3D_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE;CMAKE_INTDIR=\"MinSizeRel\";Horde3D_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\.;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\Bindings\C++;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\..;C:\A_PCL\Horde3D-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\.;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\Bindings\C++;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\..;C:\A_PCL\Horde3D-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;..\..\..\Extensions\Terrain\Source\MinSizeRel\Horde3DTerrain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/A_PCL/Horde3D-master/Horde3D/Source/Horde3DEngine/MinSizeRel/Horde3D.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/A_PCL/Horde3D-master/Binaries/Windows/MinSizeRel/Horde3D.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\.;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\Bindings\C++;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\..;C:\A_PCL\Horde3D-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE;CMAKE_INTDIR="RelWithDebInfo";Horde3D_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE;CMAKE_INTDIR=\"RelWithDebInfo\";Horde3D_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\.;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\Bindings\C++;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\..;C:\A_PCL\Horde3D-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\.;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\Bindings\C++;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\..\..\..;C:\A_PCL\Horde3D-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;..\..\..\Extensions\Terrain\Source\RelWithDebInfo\Horde3DTerrain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/A_PCL/Horde3D-master/Horde3D/Source/Horde3DEngine/RelWithDebInfo/Horde3D.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/A_PCL/Horde3D-master/Binaries/Windows/RelWithDebInfo/Horde3D.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/A_PCL/Horde3D-master/Horde3D/Source/Horde3DEngine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\A_PCL\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/A_PCL/Horde3D-master -BC:/A_PCL/Horde3D-master --check-stamp-file C:/A_PCL/Horde3D-master/Horde3D/Source/Horde3DEngine/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/A_PCL/Horde3D-master/Horde3D/Source/Horde3DEngine/CMakeLists.txt;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\CMakeLists.txt;C:\A_PCL\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindOpenGL.cmake;C:\A_PCL\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\A_PCL\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/A_PCL/Horde3D-master/Horde3D/Source/Horde3DEngine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\A_PCL\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/A_PCL/Horde3D-master -BC:/A_PCL/Horde3D-master --check-stamp-file C:/A_PCL/Horde3D-master/Horde3D/Source/Horde3DEngine/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/A_PCL/Horde3D-master/Horde3D/Source/Horde3DEngine/CMakeLists.txt;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\CMakeLists.txt;C:\A_PCL\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindOpenGL.cmake;C:\A_PCL\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\A_PCL\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/A_PCL/Horde3D-master/Horde3D/Source/Horde3DEngine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\A_PCL\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/A_PCL/Horde3D-master -BC:/A_PCL/Horde3D-master --check-stamp-file C:/A_PCL/Horde3D-master/Horde3D/Source/Horde3DEngine/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/A_PCL/Horde3D-master/Horde3D/Source/Horde3DEngine/CMakeLists.txt;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\CMakeLists.txt;C:\A_PCL\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindOpenGL.cmake;C:\A_PCL\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\A_PCL\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/A_PCL/Horde3D-master/Horde3D/Source/Horde3DEngine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\A_PCL\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/A_PCL/Horde3D-master -BC:/A_PCL/Horde3D-master --check-stamp-file C:/A_PCL/Horde3D-master/Horde3D/Source/Horde3DEngine/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/A_PCL/Horde3D-master/Horde3D/Source/Horde3DEngine/CMakeLists.txt;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\CMakeLists.txt;C:\A_PCL\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindOpenGL.cmake;C:\A_PCL\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\A_PCL\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egAnimatables.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egAnimation.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egCamera.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egCom.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egComputeNode.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egComputeBuffer.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egExtensions.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egGeometry.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egLight.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egMain.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egMaterial.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egModel.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egModules.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egParticle.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egPipeline.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egPrimitives.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egRendererBaseGL2.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egRendererBaseGL4.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egRenderer.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egResource.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egScene.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egSceneGraphRes.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egShader.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egTexture.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\utImage.cpp"  />
+    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\utOpenGL.cpp"  />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\config.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egAnimatables.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egAnimation.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egCamera.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egCom.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egComputeNode.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egComputeBuffer.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egExtensions.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egGeometry.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egLight.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egMaterial.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egModel.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egModules.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egParticle.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egPipeline.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egPrerequisites.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egPrimitives.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egRenderer.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egRendererBase.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egRendererBaseGL2.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egRendererBaseGL4.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egResource.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egScene.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egSceneGraphRes.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egShader.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egTexture.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\utImage.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\utTimer.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\utOpenGL.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Shared\utPlatform.h" />
+    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Bindings\C++\Horde3D.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\A_PCL\Horde3D-master\ZERO_CHECK.vcxproj">
+      <Project>{918E3FA7-FDD7-3FE9-A4E6-3DD0123A1EC1}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\A_PCL\Horde3D-master\Extensions\Terrain\Source\Horde3DTerrain.vcxproj">
+      <Project>{DC1EC8A7-E90A-3E02-B5D2-353C018000A7}</Project>
+      <Name>Horde3DTerrain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
