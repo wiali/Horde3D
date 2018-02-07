@@ -1,189 +1,189 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egAnimatables.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egAnimatables.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egAnimation.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egAnimation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egCamera.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egCamera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egCom.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egCom.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egComputeNode.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egComputeNode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egComputeBuffer.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egComputeBuffer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egExtensions.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egExtensions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egGeometry.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egGeometry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egLight.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egLight.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egMain.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egMaterial.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egMaterial.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egModel.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egModel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egModules.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egModules.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egParticle.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egParticle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egPipeline.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egPipeline.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egPrimitives.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egPrimitives.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egRendererBaseGL2.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egRendererBaseGL2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egRendererBaseGL4.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egRendererBaseGL4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egRenderer.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egRenderer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egResource.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egResource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egScene.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egScene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egSceneGraphRes.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egSceneGraphRes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egShader.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egShader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egTexture.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egTexture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\utImage.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\utImage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\utOpenGL.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\utOpenGL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\config.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egAnimatables.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egAnimatables.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egAnimation.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egAnimation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egCamera.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egCamera.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egCom.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egCom.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egComputeNode.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egComputeNode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egComputeBuffer.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egComputeBuffer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egExtensions.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egExtensions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egGeometry.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egGeometry.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egLight.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egLight.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egMaterial.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egMaterial.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egModel.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egModel.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egModules.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egModules.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egParticle.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egParticle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egPipeline.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egPipeline.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egPrerequisites.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egPrerequisites.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egPrimitives.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egPrimitives.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egRenderer.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egRenderer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egRendererBase.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egRendererBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egRendererBaseGL2.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egRendererBaseGL2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egRendererBaseGL4.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egRendererBaseGL4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egResource.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egResource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egScene.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egScene.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egSceneGraphRes.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egSceneGraphRes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egShader.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egShader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\egTexture.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\egTexture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\utImage.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\utImage.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\utTimer.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\utTimer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\utOpenGL.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\utOpenGL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Shared\utPlatform.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared\utPlatform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Bindings\C++\Horde3D.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Bindings\C++\Horde3D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine\CMakeLists.txt" />
+    <CustomBuild Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{A619929B-0DDC-3F0A-B7D2-F56B40C12AED}</UniqueIdentifier>
+      <UniqueIdentifier>{7236BA31-4F58-34AD-B8EC-09D43102EDC9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{02BE8D9A-2A29-3C3C-A7A9-BCC03078B095}</UniqueIdentifier>
+      <UniqueIdentifier>{35CD6B9B-0899-3601-957E-1CB7F40C30AC}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

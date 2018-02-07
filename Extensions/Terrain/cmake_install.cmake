@@ -1,4 +1,4 @@
-# Install script for directory: C:/A_PCL/Horde3D-master/Extensions/Terrain
+# Install script for directory: C:/A_PCL/RenderEngine/Horde3D/Extensions/Terrain
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/A_PCL/Horde3D-master/Extensions/Terrain/Bindings/cmake_install.cmake")
-  include("C:/A_PCL/Horde3D-master/Extensions/Terrain/Source/cmake_install.cmake")
-  include("C:/A_PCL/Horde3D-master/Extensions/Terrain/Sample/cmake_install.cmake")
+  include("C:/A_PCL/RenderEngine/Horde3D/Extensions/Terrain/Bindings/cmake_install.cmake")
+  include("C:/A_PCL/RenderEngine/Horde3D/Extensions/Terrain/Source/cmake_install.cmake")
+  include("C:/A_PCL/RenderEngine/Horde3D/Extensions/Terrain/Sample/cmake_install.cmake")
 
 endif()
 

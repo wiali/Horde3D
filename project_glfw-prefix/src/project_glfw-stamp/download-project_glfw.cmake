@@ -22,14 +22,14 @@ function(check_file_hash has_hash hash_is_good)
   set("${has_hash}" TRUE PARENT_SCOPE)
 
   message(STATUS "verifying file...
-       file='C:/A_PCL/Horde3D-master/project_glfw-prefix/src/glfw-3.2.1.zip'")
+       file='C:/A_PCL/RenderEngine/Horde3D/project_glfw-prefix/src/glfw-3.2.1.zip'")
 
-  file("MD5" "C:/A_PCL/Horde3D-master/project_glfw-prefix/src/glfw-3.2.1.zip" actual_value)
+  file("MD5" "C:/A_PCL/RenderEngine/Horde3D/project_glfw-prefix/src/glfw-3.2.1.zip" actual_value)
 
   if(NOT "${actual_value}" STREQUAL "824c99eea073bdd6d2fec76b538f79af")
     set("${hash_is_good}" FALSE PARENT_SCOPE)
     message(STATUS "MD5 hash of
-    C:/A_PCL/Horde3D-master/project_glfw-prefix/src/glfw-3.2.1.zip
+    C:/A_PCL/RenderEngine/Horde3D/project_glfw-prefix/src/glfw-3.2.1.zip
   does not match expected value
     expected: '824c99eea073bdd6d2fec76b538f79af'
       actual: '${actual_value}'")
@@ -71,7 +71,7 @@ function(sleep_before_download attempt)
   execute_process(COMMAND "${CMAKE_COMMAND}" -E sleep "${sleep_seconds}")
 endfunction()
 
-if("C:/A_PCL/Horde3D-master/project_glfw-prefix/src/glfw-3.2.1.zip" STREQUAL "")
+if("C:/A_PCL/RenderEngine/Horde3D/project_glfw-prefix/src/glfw-3.2.1.zip" STREQUAL "")
   message(FATAL_ERROR "LOCAL can't be empty")
 endif()
 
@@ -79,32 +79,32 @@ if("https://github.com/glfw/glfw/releases/download/3.2.1/glfw-3.2.1.zip" STREQUA
   message(FATAL_ERROR "REMOTE can't be empty")
 endif()
 
-if(EXISTS "C:/A_PCL/Horde3D-master/project_glfw-prefix/src/glfw-3.2.1.zip")
+if(EXISTS "C:/A_PCL/RenderEngine/Horde3D/project_glfw-prefix/src/glfw-3.2.1.zip")
   check_file_hash(has_hash hash_is_good)
   if(has_hash)
     if(hash_is_good)
       message(STATUS "File already exists and hash match (skip download):
-  file='C:/A_PCL/Horde3D-master/project_glfw-prefix/src/glfw-3.2.1.zip'
+  file='C:/A_PCL/RenderEngine/Horde3D/project_glfw-prefix/src/glfw-3.2.1.zip'
   MD5='824c99eea073bdd6d2fec76b538f79af'"
       )
       return()
     else()
       message(STATUS "File already exists but hash mismatch. Removing...")
-      file(REMOVE "C:/A_PCL/Horde3D-master/project_glfw-prefix/src/glfw-3.2.1.zip")
+      file(REMOVE "C:/A_PCL/RenderEngine/Horde3D/project_glfw-prefix/src/glfw-3.2.1.zip")
     endif()
   else()
     message(STATUS "File already exists but no hash specified (use URL_HASH):
-  file='C:/A_PCL/Horde3D-master/project_glfw-prefix/src/glfw-3.2.1.zip'
+  file='C:/A_PCL/RenderEngine/Horde3D/project_glfw-prefix/src/glfw-3.2.1.zip'
 Old file will be removed and new file downloaded from URL."
     )
-    file(REMOVE "C:/A_PCL/Horde3D-master/project_glfw-prefix/src/glfw-3.2.1.zip")
+    file(REMOVE "C:/A_PCL/RenderEngine/Horde3D/project_glfw-prefix/src/glfw-3.2.1.zip")
   endif()
 endif()
 
 set(retry_number 5)
 
 message(STATUS "Downloading...
-   dst='C:/A_PCL/Horde3D-master/project_glfw-prefix/src/glfw-3.2.1.zip'
+   dst='C:/A_PCL/RenderEngine/Horde3D/project_glfw-prefix/src/glfw-3.2.1.zip'
    timeout='none'"
 )
 
@@ -119,7 +119,7 @@ foreach(i RANGE ${retry_number})
 
     file(
         DOWNLOAD
-        "${url}" "C:/A_PCL/Horde3D-master/project_glfw-prefix/src/glfw-3.2.1.zip"
+        "${url}" "C:/A_PCL/RenderEngine/Horde3D/project_glfw-prefix/src/glfw-3.2.1.zip"
         SHOW_PROGRESS
         # no TIMEOUT
         STATUS status
@@ -135,7 +135,7 @@ foreach(i RANGE ${retry_number})
       check_file_hash(has_hash hash_is_good)
       if(has_hash AND NOT hash_is_good)
         message(STATUS "Hash mismatch, removing...")
-        file(REMOVE "C:/A_PCL/Horde3D-master/project_glfw-prefix/src/glfw-3.2.1.zip")
+        file(REMOVE "C:/A_PCL/RenderEngine/Horde3D/project_glfw-prefix/src/glfw-3.2.1.zip")
       else()
         message(STATUS "Downloading... done")
         return()

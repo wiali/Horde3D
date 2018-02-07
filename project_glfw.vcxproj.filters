@@ -1,41 +1,41 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\A_PCL\Horde3D-master\CMakeLists.txt" />
-    <CustomBuild Include="C:\A_PCL\Horde3D-master\CMakeFiles\b5bc15b1e177a88c08d30c4f043d5994\project_glfw-mkdir.rule">
+    <CustomBuild Include="C:\A_PCL\RenderEngine\Horde3D\CMakeLists.txt" />
+    <CustomBuild Include="C:\A_PCL\RenderEngine\Horde3D\CMakeFiles\43b0be46446d135374b54d0b5e9c3ba9\project_glfw-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\A_PCL\Horde3D-master\CMakeFiles\b5bc15b1e177a88c08d30c4f043d5994\project_glfw-download.rule">
+    <CustomBuild Include="C:\A_PCL\RenderEngine\Horde3D\CMakeFiles\43b0be46446d135374b54d0b5e9c3ba9\project_glfw-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\A_PCL\Horde3D-master\CMakeFiles\b5bc15b1e177a88c08d30c4f043d5994\project_glfw-update.rule">
+    <CustomBuild Include="C:\A_PCL\RenderEngine\Horde3D\CMakeFiles\43b0be46446d135374b54d0b5e9c3ba9\project_glfw-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\A_PCL\Horde3D-master\CMakeFiles\b5bc15b1e177a88c08d30c4f043d5994\project_glfw-patch.rule">
+    <CustomBuild Include="C:\A_PCL\RenderEngine\Horde3D\CMakeFiles\43b0be46446d135374b54d0b5e9c3ba9\project_glfw-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\A_PCL\Horde3D-master\CMakeFiles\b5bc15b1e177a88c08d30c4f043d5994\project_glfw-configure.rule">
+    <CustomBuild Include="C:\A_PCL\RenderEngine\Horde3D\CMakeFiles\43b0be46446d135374b54d0b5e9c3ba9\project_glfw-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\A_PCL\Horde3D-master\CMakeFiles\b5bc15b1e177a88c08d30c4f043d5994\project_glfw-build.rule">
+    <CustomBuild Include="C:\A_PCL\RenderEngine\Horde3D\CMakeFiles\43b0be46446d135374b54d0b5e9c3ba9\project_glfw-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\A_PCL\Horde3D-master\CMakeFiles\b5bc15b1e177a88c08d30c4f043d5994\project_glfw-install.rule">
+    <CustomBuild Include="C:\A_PCL\RenderEngine\Horde3D\CMakeFiles\43b0be46446d135374b54d0b5e9c3ba9\project_glfw-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\A_PCL\Horde3D-master\CMakeFiles\1efc4402211fd0fc5505eab42b10dfee\project_glfw-complete.rule">
+    <CustomBuild Include="C:\A_PCL\RenderEngine\Horde3D\CMakeFiles\b82dfc61b31b59ed860ebbf39b50b7bf\project_glfw-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\A_PCL\Horde3D-master\CMakeFiles\fd1bdba0b3ddb25570f8de26e74f8c6e\project_glfw.rule">
+    <CustomBuild Include="C:\A_PCL\RenderEngine\Horde3D\CMakeFiles\d50a7794be71c6a5f054382c2283bfeb\project_glfw.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\A_PCL\Horde3D-master\CMakeFiles\project_glfw" />
+    <None Include="C:\A_PCL\RenderEngine\Horde3D\CMakeFiles\project_glfw" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{E223D6E3-B3D7-36E4-8AB7-2789C79138D0}</UniqueIdentifier>
+      <UniqueIdentifier>{3DFC8541-BB07-345F-B23A-1C38F0193E61}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

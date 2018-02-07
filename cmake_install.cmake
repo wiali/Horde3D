@@ -1,4 +1,4 @@
-# Install script for directory: C:/A_PCL/Horde3D-master
+# Install script for directory: C:/A_PCL/RenderEngine/Horde3D
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/A_PCL/Horde3D-master/Extensions/ExternalTexture/cmake_install.cmake")
-  include("C:/A_PCL/Horde3D-master/Extensions/Terrain/cmake_install.cmake")
-  include("C:/A_PCL/Horde3D-master/Horde3D/cmake_install.cmake")
+  include("C:/A_PCL/RenderEngine/Horde3D/Extensions/ExternalTexture/cmake_install.cmake")
+  include("C:/A_PCL/RenderEngine/Horde3D/Extensions/Terrain/cmake_install.cmake")
+  include("C:/A_PCL/RenderEngine/Horde3D/Horde3D/cmake_install.cmake")
 
 endif()
 
@@ -48,5 +48,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/A_PCL/Horde3D-master/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/A_PCL/RenderEngine/Horde3D/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

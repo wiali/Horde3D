@@ -1,4 +1,4 @@
-# Install script for directory: C:/A_PCL/Horde3D-master/Extensions/Terrain/Bindings/C++
+# Install script for directory: C:/A_PCL/RenderEngine/Horde3D/Extensions/Terrain/Bindings/C++
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

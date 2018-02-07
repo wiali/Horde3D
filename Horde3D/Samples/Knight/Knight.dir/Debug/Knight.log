@@ -1,9 +1,20 @@
-﻿  Building Custom Rule C:/A_PCL/Horde3D-master/Horde3D/Samples/Knight/CMakeLists.txt
-  CMake does not need to re-run because C:/A_PCL/Horde3D-master/Horde3D/Samples/Knight/CMakeFiles/generate.stamp is up-to-date.
-  sampleapp.cpp
-c:\a_pcl\horde3d-master\horde3d\samples\framework\sampleapp.h(21): fatal error C1083: Cannot open include file: 'GLFW/glfw3.h': No such file or directory
+﻿  sampleapp.cpp
   app.cpp
-c:\a_pcl\horde3d-master\horde3d\samples\knight\../Framework/sampleapp.h(21): fatal error C1083: Cannot open include file: 'GLFW/glfw3.h': No such file or directory
   main.cpp
-c:\a_pcl\horde3d-master\horde3d\samples\knight\../Framework/sampleapp.h(21): fatal error C1083: Cannot open include file: 'GLFW/glfw3.h': No such file or directory
   Generating Code...
+glfw3.lib(context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(context.obj)' or at 'C:\A_PCL\RenderEngine\Horde3D\Binaries\Windows\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(init.obj)' or at 'C:\A_PCL\RenderEngine\Horde3D\Binaries\Windows\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(input.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(input.obj)' or at 'C:\A_PCL\RenderEngine\Horde3D\Binaries\Windows\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(monitor.obj)' or at 'C:\A_PCL\RenderEngine\Horde3D\Binaries\Windows\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(vulkan.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(vulkan.obj)' or at 'C:\A_PCL\RenderEngine\Horde3D\Binaries\Windows\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(window.obj)' or at 'C:\A_PCL\RenderEngine\Horde3D\Binaries\Windows\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_init.obj)' or at 'C:\A_PCL\RenderEngine\Horde3D\Binaries\Windows\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_joystick.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_joystick.obj)' or at 'C:\A_PCL\RenderEngine\Horde3D\Binaries\Windows\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_monitor.obj)' or at 'C:\A_PCL\RenderEngine\Horde3D\Binaries\Windows\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_time.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_time.obj)' or at 'C:\A_PCL\RenderEngine\Horde3D\Binaries\Windows\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_tls.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_tls.obj)' or at 'C:\A_PCL\RenderEngine\Horde3D\Binaries\Windows\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_window.obj)' or at 'C:\A_PCL\RenderEngine\Horde3D\Binaries\Windows\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(wgl_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(wgl_context.obj)' or at 'C:\A_PCL\RenderEngine\Horde3D\Binaries\Windows\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(egl_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(egl_context.obj)' or at 'C:\A_PCL\RenderEngine\Horde3D\Binaries\Windows\Debug\glfw.pdb'; linking object as if no debug info
+  Knight.vcxproj -> C:\A_PCL\RenderEngine\Horde3D\Binaries\Windows\Debug\Knight.exe
+  Knight.vcxproj -> C:/A_PCL/RenderEngine/Horde3D/Binaries/Windows/Debug/Knight.pdb (Full PDB)

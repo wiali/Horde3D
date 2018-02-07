@@ -1,6 +1,6 @@
-﻿  Building Custom Rule C:/A_PCL/Horde3D-master/Extensions/Terrain/Source/CMakeLists.txt
-  CMake does not need to re-run because C:/A_PCL/Horde3D-master/Extensions/Terrain/Source/CMakeFiles/generate.stamp is up-to-date.
+﻿  Building Custom Rule C:/A_PCL/RenderEngine/Horde3D/Extensions/Terrain/Source/CMakeLists.txt
+  CMake does not need to re-run because C:/A_PCL/RenderEngine/Horde3D/Extensions/Terrain/Source/CMakeFiles/generate.stamp is up-to-date.
   extension.cpp
   terrain.cpp
   Generating Code...
-  Horde3DTerrain.vcxproj -> C:\A_PCL\Horde3D-master\Extensions\Terrain\Source\Debug\Horde3DTerrain.lib
+  Horde3DTerrain.vcxproj -> C:\A_PCL\RenderEngine\Horde3D\Extensions\Terrain\Source\Debug\Horde3DTerrain.lib

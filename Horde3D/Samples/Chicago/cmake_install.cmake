@@ -1,4 +1,4 @@
-# Install script for directory: C:/A_PCL/Horde3D-master/Horde3D/Samples/Chicago
+# Install script for directory: C:/A_PCL/RenderEngine/Horde3D/Horde3D/Samples/Chicago
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

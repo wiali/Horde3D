@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DUtils\main.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DUtils\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Bindings\C++\Horde3DUtils.h">
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Bindings\C++\Horde3DUtils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DUtils\CMakeLists.txt" />
+    <CustomBuild Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DUtils\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{A619929B-0DDC-3F0A-B7D2-F56B40C12AED}</UniqueIdentifier>
+      <UniqueIdentifier>{7236BA31-4F58-34AD-B8EC-09D43102EDC9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{02BE8D9A-2A29-3C3C-A7A9-BCC03078B095}</UniqueIdentifier>
+      <UniqueIdentifier>{35CD6B9B-0899-3601-957E-1CB7F40C30AC}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

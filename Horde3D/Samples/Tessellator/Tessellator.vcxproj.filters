@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Samples\Framework\sampleapp.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\Framework\sampleapp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Samples\Tessellator\app.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\Tessellator\app.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Samples\Tessellator\main.cpp">
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\Tessellator\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\A_PCL\Horde3D-master\Horde3D\Samples\Tessellator\CMakeLists.txt" />
+    <CustomBuild Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\Tessellator\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{A619929B-0DDC-3F0A-B7D2-F56B40C12AED}</UniqueIdentifier>
+      <UniqueIdentifier>{7236BA31-4F58-34AD-B8EC-09D43102EDC9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

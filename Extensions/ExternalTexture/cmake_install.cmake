@@ -1,4 +1,4 @@
-# Install script for directory: C:/A_PCL/Horde3D-master/Extensions/ExternalTexture
+# Install script for directory: C:/A_PCL/RenderEngine/Horde3D/Extensions/ExternalTexture
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

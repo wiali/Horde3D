@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\A_PCL\Horde3D-master\CMakeLists.txt" />
-    <CustomBuild Include="C:\A_PCL\Horde3D-master\CMakeFiles\9502db507885a889237590977c41a364\glfw3.lib.rule">
+    <CustomBuild Include="C:\A_PCL\RenderEngine\Horde3D\CMakeLists.txt" />
+    <CustomBuild Include="C:\A_PCL\RenderEngine\Horde3D\CMakeFiles\026363e89e17123ef6f95a7921c1bf33\glfw3.lib.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\A_PCL\Horde3D-master\CMakeFiles\fd1bdba0b3ddb25570f8de26e74f8c6e\GLFW_LIBRARY_EXTERN.rule">
+    <CustomBuild Include="C:\A_PCL\RenderEngine\Horde3D\CMakeFiles\d50a7794be71c6a5f054382c2283bfeb\GLFW_LIBRARY_EXTERN.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\A_PCL\Horde3D-master\CMakeFiles\GLFW_LIBRARY_EXTERN" />
+    <None Include="C:\A_PCL\RenderEngine\Horde3D\CMakeFiles\GLFW_LIBRARY_EXTERN" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{E223D6E3-B3D7-36E4-8AB7-2789C79138D0}</UniqueIdentifier>
+      <UniqueIdentifier>{3DFC8541-BB07-345F-B23A-1C38F0193E61}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1BA879DD-55C0-3F64-B631-4D5E53733FBA}</ProjectGuid>
+    <ProjectGuid>{5E2286B2-1D99-30C0-93BC-82E41F5FF3EF}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -56,25 +56,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\A_PCL\Horde3D-master\Binaries\Windows\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\A_PCL\RenderEngine\Horde3D\Binaries\Windows\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ColladaConv.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ColladaConv</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\A_PCL\Horde3D-master\Binaries\Windows\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\A_PCL\RenderEngine\Horde3D\Binaries\Windows\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ColladaConv.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ColladaConv</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\A_PCL\Horde3D-master\Binaries\Windows\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\A_PCL\RenderEngine\Horde3D\Binaries\Windows\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ColladaConv.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ColladaConv</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\A_PCL\Horde3D-master\Binaries\Windows\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\A_PCL\RenderEngine\Horde3D\Binaries\Windows\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ColladaConv.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ColladaConv</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -83,7 +83,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -100,10 +100,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -117,8 +117,8 @@
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/A_PCL/Horde3D-master/Horde3D/Source/ColladaConverter/Debug/ColladaConv.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/A_PCL/Horde3D-master/Binaries/Windows/Debug/ColladaConv.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/A_PCL/RenderEngine/Horde3D/Horde3D/Source/ColladaConverter/Debug/ColladaConv.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/A_PCL/RenderEngine/Horde3D/Binaries/Windows/Debug/ColladaConv.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -127,7 +127,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -143,10 +143,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -160,8 +160,8 @@
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/A_PCL/Horde3D-master/Horde3D/Source/ColladaConverter/Release/ColladaConv.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/A_PCL/Horde3D-master/Binaries/Windows/Release/ColladaConv.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/A_PCL/RenderEngine/Horde3D/Horde3D/Source/ColladaConverter/Release/ColladaConv.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/A_PCL/RenderEngine/Horde3D/Binaries/Windows/Release/ColladaConv.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -170,7 +170,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -186,10 +186,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -203,8 +203,8 @@
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/A_PCL/Horde3D-master/Horde3D/Source/ColladaConverter/MinSizeRel/ColladaConv.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/A_PCL/Horde3D-master/Binaries/Windows/MinSizeRel/ColladaConv.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/A_PCL/RenderEngine/Horde3D/Horde3D/Source/ColladaConverter/MinSizeRel/ColladaConv.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/A_PCL/RenderEngine/Horde3D/Binaries/Windows/MinSizeRel/ColladaConv.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -213,7 +213,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -229,10 +229,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\..\Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -246,8 +246,8 @@
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/A_PCL/Horde3D-master/Horde3D/Source/ColladaConverter/RelWithDebInfo/ColladaConv.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/A_PCL/Horde3D-master/Binaries/Windows/RelWithDebInfo/ColladaConv.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/A_PCL/RenderEngine/Horde3D/Horde3D/Source/ColladaConverter/RelWithDebInfo/ColladaConv.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/A_PCL/RenderEngine/Horde3D/Binaries/Windows/RelWithDebInfo/ColladaConv.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -255,10 +255,10 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/A_PCL/Horde3D-master/Horde3D/Source/ColladaConverter/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/A_PCL/RenderEngine/Horde3D/Horde3D/Source/ColladaConverter/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\A_PCL\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/A_PCL/Horde3D-master -BC:/A_PCL/Horde3D-master --check-stamp-file C:/A_PCL/Horde3D-master/Horde3D/Source/ColladaConverter/CMakeFiles/generate.stamp
+C:\Users\Aden\Desktop\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/A_PCL/RenderEngine/Horde3D -BC:/A_PCL/RenderEngine/Horde3D --check-stamp-file C:/A_PCL/RenderEngine/Horde3D/Horde3D/Source/ColladaConverter/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -266,12 +266,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/A_PCL/Horde3D-master/Horde3D/Source/ColladaConverter/CMakeLists.txt;C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\CMakeLists.txt;C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/A_PCL/RenderEngine/Horde3D/Horde3D/Source/ColladaConverter/CMakeLists.txt;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\CMakeLists.txt;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/A_PCL/Horde3D-master/Horde3D/Source/ColladaConverter/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/A_PCL/RenderEngine/Horde3D/Horde3D/Source/ColladaConverter/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-C:\A_PCL\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/A_PCL/Horde3D-master -BC:/A_PCL/Horde3D-master --check-stamp-file C:/A_PCL/Horde3D-master/Horde3D/Source/ColladaConverter/CMakeFiles/generate.stamp
+C:\Users\Aden\Desktop\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/A_PCL/RenderEngine/Horde3D -BC:/A_PCL/RenderEngine/Horde3D --check-stamp-file C:/A_PCL/RenderEngine/Horde3D/Horde3D/Source/ColladaConverter/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -279,12 +279,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/A_PCL/Horde3D-master/Horde3D/Source/ColladaConverter/CMakeLists.txt;C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\CMakeLists.txt;C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/A_PCL/RenderEngine/Horde3D/Horde3D/Source/ColladaConverter/CMakeLists.txt;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\CMakeLists.txt;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/A_PCL/Horde3D-master/Horde3D/Source/ColladaConverter/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/A_PCL/RenderEngine/Horde3D/Horde3D/Source/ColladaConverter/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-C:\A_PCL\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/A_PCL/Horde3D-master -BC:/A_PCL/Horde3D-master --check-stamp-file C:/A_PCL/Horde3D-master/Horde3D/Source/ColladaConverter/CMakeFiles/generate.stamp
+C:\Users\Aden\Desktop\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/A_PCL/RenderEngine/Horde3D -BC:/A_PCL/RenderEngine/Horde3D --check-stamp-file C:/A_PCL/RenderEngine/Horde3D/Horde3D/Source/ColladaConverter/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -292,12 +292,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/A_PCL/Horde3D-master/Horde3D/Source/ColladaConverter/CMakeLists.txt;C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\CMakeLists.txt;C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/A_PCL/RenderEngine/Horde3D/Horde3D/Source/ColladaConverter/CMakeLists.txt;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\CMakeLists.txt;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/A_PCL/Horde3D-master/Horde3D/Source/ColladaConverter/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/A_PCL/RenderEngine/Horde3D/Horde3D/Source/ColladaConverter/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-C:\A_PCL\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/A_PCL/Horde3D-master -BC:/A_PCL/Horde3D-master --check-stamp-file C:/A_PCL/Horde3D-master/Horde3D/Source/ColladaConverter/CMakeFiles/generate.stamp
+C:\Users\Aden\Desktop\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/A_PCL/RenderEngine/Horde3D -BC:/A_PCL/RenderEngine/Horde3D --check-stamp-file C:/A_PCL/RenderEngine/Horde3D/Horde3D/Source/ColladaConverter/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -305,33 +305,33 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/A_PCL/Horde3D-master/Horde3D/Source/ColladaConverter/CMakeLists.txt;C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\CMakeLists.txt;C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/A_PCL/RenderEngine/Horde3D/Horde3D/Source/ColladaConverter/CMakeLists.txt;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\CMakeLists.txt;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\converter.h" />
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\daeCommon.h" />
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\daeLibAnimations.h" />
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\daeLibControllers.h" />
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\daeLibEffects.h" />
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\daeLibGeometries.h" />
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\daeLibImages.h" />
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\daeLibMaterials.h" />
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\daeLibVisualScenes.h" />
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\daeMain.h" />
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\optimizer.h" />
-    <ClInclude Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\utils.h" />
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\converter.cpp"  />
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\daeMain.cpp"  />
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\main.cpp"  />
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\optimizer.cpp"  />
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Source\ColladaConverter\utils.cpp"  />
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\converter.h" />
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\daeCommon.h" />
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\daeLibAnimations.h" />
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\daeLibControllers.h" />
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\daeLibEffects.h" />
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\daeLibGeometries.h" />
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\daeLibImages.h" />
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\daeLibMaterials.h" />
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\daeLibVisualScenes.h" />
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\daeMain.h" />
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\optimizer.h" />
+    <ClInclude Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\utils.h" />
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\converter.cpp"  />
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\daeMain.cpp"  />
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\main.cpp"  />
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\optimizer.cpp"  />
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\ColladaConverter\utils.cpp"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\A_PCL\Horde3D-master\ZERO_CHECK.vcxproj">
-      <Project>{918E3FA7-FDD7-3FE9-A4E6-3DD0123A1EC1}</Project>
+    <ProjectReference Include="C:\A_PCL\RenderEngine\Horde3D\ZERO_CHECK.vcxproj">
+      <Project>{3B1215D9-F393-3053-8A9E-7C245EE02121}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
   </ItemGroup>

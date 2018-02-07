@@ -1,7 +1,7 @@
 # Make file names absolute:
 #
-get_filename_component(filename "C:/A_PCL/Horde3D-master/project_glfw-prefix/src/glfw-3.2.1.zip" ABSOLUTE)
-get_filename_component(directory "C:/A_PCL/Horde3D-master/project_glfw-prefix/src/project_glfw" ABSOLUTE)
+get_filename_component(filename "C:/A_PCL/RenderEngine/Horde3D/project_glfw-prefix/src/glfw-3.2.1.zip" ABSOLUTE)
+get_filename_component(directory "C:/A_PCL/RenderEngine/Horde3D/project_glfw-prefix/src/project_glfw" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

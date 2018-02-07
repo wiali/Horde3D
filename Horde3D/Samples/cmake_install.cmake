@@ -1,4 +1,4 @@
-# Install script for directory: C:/A_PCL/Horde3D-master/Horde3D/Samples
+# Install script for directory: C:/A_PCL/RenderEngine/Horde3D/Horde3D/Samples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/A_PCL/Horde3D-master/Horde3D/Samples/Framework/cmake_install.cmake")
-  include("C:/A_PCL/Horde3D-master/Horde3D/Samples/Chicago/cmake_install.cmake")
-  include("C:/A_PCL/Horde3D-master/Horde3D/Samples/Knight/cmake_install.cmake")
-  include("C:/A_PCL/Horde3D-master/Horde3D/Samples/ParticleVortex/cmake_install.cmake")
-  include("C:/A_PCL/Horde3D-master/Horde3D/Samples/Tessellator/cmake_install.cmake")
+  include("C:/A_PCL/RenderEngine/Horde3D/Horde3D/Samples/Framework/cmake_install.cmake")
+  include("C:/A_PCL/RenderEngine/Horde3D/Horde3D/Samples/Chicago/cmake_install.cmake")
+  include("C:/A_PCL/RenderEngine/Horde3D/Horde3D/Samples/Knight/cmake_install.cmake")
+  include("C:/A_PCL/RenderEngine/Horde3D/Horde3D/Samples/ParticleVortex/cmake_install.cmake")
+  include("C:/A_PCL/RenderEngine/Horde3D/Horde3D/Samples/Tessellator/cmake_install.cmake")
 
 endif()
 

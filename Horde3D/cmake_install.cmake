@@ -1,4 +1,4 @@
-# Install script for directory: C:/A_PCL/Horde3D-master/Horde3D
+# Install script for directory: C:/A_PCL/RenderEngine/Horde3D/Horde3D
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/A_PCL/Horde3D-master/Horde3D/Source/cmake_install.cmake")
-  include("C:/A_PCL/Horde3D-master/Horde3D/Samples/cmake_install.cmake")
-  include("C:/A_PCL/Horde3D-master/Horde3D/Bindings/cmake_install.cmake")
-  include("C:/A_PCL/Horde3D-master/Horde3D/Binaries/cmake_install.cmake")
+  include("C:/A_PCL/RenderEngine/Horde3D/Horde3D/Source/cmake_install.cmake")
+  include("C:/A_PCL/RenderEngine/Horde3D/Horde3D/Samples/cmake_install.cmake")
+  include("C:/A_PCL/RenderEngine/Horde3D/Horde3D/Bindings/cmake_install.cmake")
+  include("C:/A_PCL/RenderEngine/Horde3D/Horde3D/Binaries/cmake_install.cmake")
 
 endif()
 

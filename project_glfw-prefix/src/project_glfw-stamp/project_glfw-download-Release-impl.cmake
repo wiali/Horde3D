@@ -1,4 +1,4 @@
-set(command "C:/A_PCL/cmake-3.10.2-win64-x64/bin/cmake.exe;-P;C:/A_PCL/Horde3D-master/project_glfw-prefix/src/project_glfw-stamp/download-project_glfw.cmake")
+set(command "C:/Users/Aden/Desktop/cmake-3.10.2-win64-x64/bin/cmake.exe;-P;C:/A_PCL/RenderEngine/Horde3D/project_glfw-prefix/src/project_glfw-stamp/download-project_glfw.cmake")
 
 execute_process(COMMAND ${command} RESULT_VARIABLE result)
 if(result)
@@ -8,7 +8,7 @@ if(result)
   endforeach()
   message(FATAL_ERROR "${msg}")
 endif()
-set(command "C:/A_PCL/cmake-3.10.2-win64-x64/bin/cmake.exe;-P;C:/A_PCL/Horde3D-master/project_glfw-prefix/src/project_glfw-stamp/verify-project_glfw.cmake")
+set(command "C:/Users/Aden/Desktop/cmake-3.10.2-win64-x64/bin/cmake.exe;-P;C:/A_PCL/RenderEngine/Horde3D/project_glfw-prefix/src/project_glfw-stamp/verify-project_glfw.cmake")
 
 execute_process(COMMAND ${command} RESULT_VARIABLE result)
 if(result)
@@ -18,7 +18,7 @@ if(result)
   endforeach()
   message(FATAL_ERROR "${msg}")
 endif()
-set(command "C:/A_PCL/cmake-3.10.2-win64-x64/bin/cmake.exe;-P;C:/A_PCL/Horde3D-master/project_glfw-prefix/src/project_glfw-stamp/extract-project_glfw.cmake")
+set(command "C:/Users/Aden/Desktop/cmake-3.10.2-win64-x64/bin/cmake.exe;-P;C:/A_PCL/RenderEngine/Horde3D/project_glfw-prefix/src/project_glfw-stamp/extract-project_glfw.cmake")
 
 execute_process(COMMAND ${command} RESULT_VARIABLE result)
 if(result)

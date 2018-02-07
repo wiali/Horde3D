@@ -1,4 +1,4 @@
-# Install script for directory: C:/A_PCL/Horde3D-master/Extensions/Terrain/Source
+# Install script for directory: C:/A_PCL/RenderEngine/Horde3D/Extensions/Terrain/Source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{727AD3A7-91AE-3B5D-9A0B-B18C8C726958}</ProjectGuid>
+    <ProjectGuid>{714B42BC-89C7-3C08-8785-7D51FAB149B8}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -75,7 +75,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -92,10 +92,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -108,7 +108,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -124,10 +124,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -140,7 +140,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -156,10 +156,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -172,7 +172,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -188,10 +188,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\A_PCL\Horde3D-master\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\Horde3D-master\Horde3D\Source\Horde3DEngine;C:\A_PCL\Horde3D-master\Horde3D\Source\Shared;C:\A_PCL\Horde3D-master\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\A_PCL\RenderEngine\Horde3D\project_glfw-prefix\src\project_glfw\include;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Horde3DEngine;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Source\Shared;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\..\Bindings\C++;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -203,10 +203,10 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\A_PCL\Horde3D-master\Horde3D\Samples\Framework\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/A_PCL/Horde3D-master/Horde3D/Samples/Framework/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\Framework\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/A_PCL/RenderEngine/Horde3D/Horde3D/Samples/Framework/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\A_PCL\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/A_PCL/Horde3D-master -BC:/A_PCL/Horde3D-master --check-stamp-file C:/A_PCL/Horde3D-master/Horde3D/Samples/Framework/CMakeFiles/generate.stamp
+C:\Users\Aden\Desktop\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/A_PCL/RenderEngine/Horde3D -BC:/A_PCL/RenderEngine/Horde3D --check-stamp-file C:/A_PCL/RenderEngine/Horde3D/Horde3D/Samples/Framework/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -214,12 +214,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/A_PCL/Horde3D-master/Horde3D/Samples/Framework/CMakeLists.txt;C:\A_PCL\Horde3D-master\Horde3D\Samples\Framework\CMakeLists.txt;C:\A_PCL\Horde3D-master\Horde3D\Samples\Framework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\A_PCL\Horde3D-master\Horde3D\Samples\Framework\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/A_PCL/RenderEngine/Horde3D/Horde3D/Samples/Framework/CMakeLists.txt;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\Framework\CMakeLists.txt;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\Framework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\Framework\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/A_PCL/Horde3D-master/Horde3D/Samples/Framework/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/A_PCL/RenderEngine/Horde3D/Horde3D/Samples/Framework/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-C:\A_PCL\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/A_PCL/Horde3D-master -BC:/A_PCL/Horde3D-master --check-stamp-file C:/A_PCL/Horde3D-master/Horde3D/Samples/Framework/CMakeFiles/generate.stamp
+C:\Users\Aden\Desktop\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/A_PCL/RenderEngine/Horde3D -BC:/A_PCL/RenderEngine/Horde3D --check-stamp-file C:/A_PCL/RenderEngine/Horde3D/Horde3D/Samples/Framework/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -227,12 +227,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/A_PCL/Horde3D-master/Horde3D/Samples/Framework/CMakeLists.txt;C:\A_PCL\Horde3D-master\Horde3D\Samples\Framework\CMakeLists.txt;C:\A_PCL\Horde3D-master\Horde3D\Samples\Framework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\A_PCL\Horde3D-master\Horde3D\Samples\Framework\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/A_PCL/RenderEngine/Horde3D/Horde3D/Samples/Framework/CMakeLists.txt;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\Framework\CMakeLists.txt;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\Framework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\Framework\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/A_PCL/Horde3D-master/Horde3D/Samples/Framework/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/A_PCL/RenderEngine/Horde3D/Horde3D/Samples/Framework/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-C:\A_PCL\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/A_PCL/Horde3D-master -BC:/A_PCL/Horde3D-master --check-stamp-file C:/A_PCL/Horde3D-master/Horde3D/Samples/Framework/CMakeFiles/generate.stamp
+C:\Users\Aden\Desktop\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/A_PCL/RenderEngine/Horde3D -BC:/A_PCL/RenderEngine/Horde3D --check-stamp-file C:/A_PCL/RenderEngine/Horde3D/Horde3D/Samples/Framework/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -240,12 +240,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/A_PCL/Horde3D-master/Horde3D/Samples/Framework/CMakeLists.txt;C:\A_PCL\Horde3D-master\Horde3D\Samples\Framework\CMakeLists.txt;C:\A_PCL\Horde3D-master\Horde3D\Samples\Framework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\A_PCL\Horde3D-master\Horde3D\Samples\Framework\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/A_PCL/RenderEngine/Horde3D/Horde3D/Samples/Framework/CMakeLists.txt;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\Framework\CMakeLists.txt;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\Framework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\Framework\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/A_PCL/Horde3D-master/Horde3D/Samples/Framework/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/A_PCL/RenderEngine/Horde3D/Horde3D/Samples/Framework/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-C:\A_PCL\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/A_PCL/Horde3D-master -BC:/A_PCL/Horde3D-master --check-stamp-file C:/A_PCL/Horde3D-master/Horde3D/Samples/Framework/CMakeFiles/generate.stamp
+C:\Users\Aden\Desktop\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/A_PCL/RenderEngine/Horde3D -BC:/A_PCL/RenderEngine/Horde3D --check-stamp-file C:/A_PCL/RenderEngine/Horde3D/Horde3D/Samples/Framework/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -253,21 +253,21 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/A_PCL/Horde3D-master/Horde3D/Samples/Framework/CMakeLists.txt;C:\A_PCL\Horde3D-master\Horde3D\Samples\Framework\CMakeLists.txt;C:\A_PCL\Horde3D-master\Horde3D\Samples\Framework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\A_PCL\Horde3D-master\Horde3D\Samples\Framework\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/A_PCL/RenderEngine/Horde3D/Horde3D/Samples/Framework/CMakeLists.txt;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\Framework\CMakeLists.txt;C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\Framework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\Framework\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\A_PCL\Horde3D-master\Horde3D\Samples\Framework\sampleapp.cpp"  />
+    <ClCompile Include="C:\A_PCL\RenderEngine\Horde3D\Horde3D\Samples\Framework\sampleapp.cpp"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\A_PCL\Horde3D-master\ZERO_CHECK.vcxproj">
-      <Project>{918E3FA7-FDD7-3FE9-A4E6-3DD0123A1EC1}</Project>
+    <ProjectReference Include="C:\A_PCL\RenderEngine\Horde3D\ZERO_CHECK.vcxproj">
+      <Project>{3B1215D9-F393-3053-8A9E-7C245EE02121}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\A_PCL\Horde3D-master\project_glfw.vcxproj">
-      <Project>{C16111D4-633D-32A9-9029-C0AA9493E925}</Project>
+    <ProjectReference Include="C:\A_PCL\RenderEngine\Horde3D\project_glfw.vcxproj">
+      <Project>{00ACB97E-1B58-31F9-8DBC-AC107AC41487}</Project>
       <Name>project_glfw</Name>
     </ProjectReference>
   </ItemGroup>
